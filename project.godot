@@ -1,0 +1,24 @@
+; Demo / dev project for Stats / Skill Trees — Lite.
+
+config_version=5
+
+[application]
+
+config/name="Stats / Skills — Lite — Demo"
+config/description="Free stat aggregator for Godot 4.3+ (no skill tree)."
+config/features=PackedStringArray("4.3", "GL Compatibility")
+run/main_scene="res://demo/stats_demo.tscn"
+
+[display]
+
+window/size/viewport_width=900
+window/size/viewport_height=540
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/stats_skills_lite/plugin.cfg")
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
