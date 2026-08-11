@@ -1,5 +1,7 @@
 # Stats / Skills — Lite
 
+> **New since 1.0.0:** a no-code authoring dock (create, edit, duplicate and delete `StatDefinitionLite` definitions from an editor panel) and a one-click **Setup** tab that drops a working component into your scene. Details in CHANGELOG.md.
+
 **FREE.** Stat aggregator + modifier pipeline for Godot 4.3+. Pure GDScript. MIT.
 
 The working core of the [CindieForge Stats / Skill Trees addon](docs/upgrade.md). Define stats. Add modifiers. Read totals. Same math, same modifier shape as the Pro tier — only the skill-tree runtime and the editor-grade UIs are missing.

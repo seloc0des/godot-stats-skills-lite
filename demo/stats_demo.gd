@@ -28,7 +28,7 @@ func _ready() -> void:
 	add_child(layer)
 
 	var title := Label.new()
-	title.text = "Stats / Skills — Lite — Demo"
+	title.text = "Stats / Skills (Lite) · Demo"
 	title.position = Vector2(16, 12)
 	title.add_theme_font_size_override("font_size", 16)
 	layer.add_child(title)
