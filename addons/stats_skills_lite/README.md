@@ -1,8 +1,8 @@
 # Stats / Skills — Lite
 
-**FREE.** Stat aggregator + modifier pipeline for Godot 4.3+. Pure GDScript. MIT.
+**FREE.** Stat aggregator + modifier pipeline for Godot 4.5+. Pure GDScript. MIT.
 
-The working core of the [CindieForge Stats / Skill Trees addon](docs/upgrade.md). Define stats. Add modifiers. Read totals. Same math, same modifier shape as the Pro tier — only the skill-tree runtime and the editor-grade UIs are missing.
+The working core of the [selodev Stats / Skill Trees addon](docs/upgrade.md). Define stats. Add modifiers. Read totals. Same math, same modifier shape as the Pro tier — only the skill-tree runtime and the editor-grade UIs are missing.
 
 ## 5-minute install
 
