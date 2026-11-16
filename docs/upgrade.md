@@ -11,14 +11,15 @@
 - **Save-contract auto-join.** Stats + skill tree state both persist through the Save addon.
 - **Shared `Events` autoload.** `stat_changed`, `modifier_added/removed`, `skill_node_unlocked/refunded`, `skill_points_changed` flow on the shared bus.
 
-## Migration from Lite
+## Moving from Lite
 
-`StatsComponentLite` and `StatsComponent` share the same modifier shape (`{stat, op, amount, source_id, duration_seconds?}`) and aggregation formula. Existing modifiers carry over. `StatDefinitionLite.tres` files are upgrade-compatible with the Pro `StatDefinition` (add `description`, `category`, `icon` if you want them; the Lite ones still work).
+The full version installs next to the Lite, in its own folder, and both run in the same project, so you can move over one piece at a time. It isn't a drop-in replacement: the class names differ, and so do some method names.
+
+`StatsComponentLite` becomes `StatsComponent`. `add_modifier`, `remove_modifier`, `clear_modifiers`, `get_stat`, `get_base`, `set_base` and `get_breakdown` keep their names, and both versions use the same formula, so the numbers come out the same. `snapshot()`, `restore()` and `find()` don't exist in the full version. Your `StatDefinitionLite.tres` files stay Lite resources, so re-create them as the full `StatDefinition`. All six fields have the same names.
 
 ## Where to buy
 
-The full version is on itch.io — **https://selodev.itch.io**. Both tiers share the
-same field names and method signatures, so upgrading is a class-name swap.
+The full version is on itch.io: **https://selodev.itch.io**.
 
 ## License
 
