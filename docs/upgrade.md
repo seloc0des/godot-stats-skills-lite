@@ -1,6 +1,6 @@
-# Upgrade to Stats / Skill Trees (Pro)
+# Upgrade to the full Stats / Skill Trees
 
-## What Pro adds
+## What the full version adds
 
 - **Visual skill tree.** `SkillTree` Resource of `SkillNode`s with positions, prereqs, costs, granted modifiers. `SkillTreeComponent` runtime with `unlock` / `refund` / `respec`. The headline feature.
 - **`SkillTreeUI` Control.** Positioned node buttons, connection lines, themed by `SkillTreeTheme`. Click to unlock, right-click to refund. Tooltips per node.

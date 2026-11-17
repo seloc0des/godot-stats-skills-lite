@@ -2,9 +2,9 @@
 
 **FREE.** Stat aggregator + modifier pipeline for Godot 4.5+, with a stats list and stat pickups you set up in the editor. Pure GDScript. MIT.
 
-The working core of the [selodev Stats / Skill Trees addon](docs/upgrade.md). Define stats. Add modifiers. Read totals. Same math, same modifier shape as the Pro tier. The skill-tree runtime and the styled UIs are Pro.
+The working core of the [selodev Stats / Skill Trees addon](docs/upgrade.md). Define stats. Add modifiers. Read totals. Same math, same modifier shape as the full version. The skill-tree runtime and the styled UIs are in the full version.
 
-> **New in v1.1: no-code dock.** Enable the plugin and an authoring panel appears: create, edit, duplicate, and delete your stat definitions in a UI, no `.tres` editing. (The Pro tier adds three docks, including a skill tree editor.)
+> **New in v1.1: no-code dock.** Enable the plugin and an authoring panel appears: create, edit, duplicate, and delete your stat definitions in a UI, no `.tres` editing. (The full version adds three docks, including a skill tree editor.)
 
 ## One-click setup (no code)
 
@@ -47,14 +47,14 @@ The aggregation formula: `(base + Σ flat) × (1 + Σ percent_add / 100) × Π (
 
 | Feature | Tier |
 |---|---|
-| Visual skill tree (`SkillNode` + `SkillTree` + `SkillTreeComponent`) | Pro |
-| `SkillTreeUI` Control with click-to-unlock | Pro |
-| `StatsPanelUI` Control with breakdown tooltips | Pro |
-| Auto-subscribe to the Equipment addon's modifier bus | Pro |
-| Timed buffs on any modifier (`duration_seconds`); Lite's stat pickups time their own boosts | Pro |
-| Atomic `replace_modifiers(source_id, mods)` swap | Pro |
-| Save-contract auto-join | Pro |
-| Shared `Events` autoload | Pro |
+| Visual skill tree (`SkillNode` + `SkillTree` + `SkillTreeComponent`) | Full version |
+| `SkillTreeUI` Control with click-to-unlock | Full version |
+| `StatsPanelUI` Control with breakdown tooltips | Full version |
+| Auto-subscribe to the Equipment addon's modifier bus | Full version |
+| Timed buffs on any modifier (`duration_seconds`); Lite's stat pickups time their own boosts | Full version |
+| Atomic `replace_modifiers(source_id, mods)` swap | Full version |
+| Save-contract auto-join | Full version |
+| Shared `Events` autoload | Full version |
 
 See [docs/upgrade.md](docs/upgrade.md).
 

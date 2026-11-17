@@ -1,11 +1,11 @@
 class_name StatsComponentLite
 extends Node
 
-# Stat aggregator. Same modifier shape and math as the Pro tier — three ops
+# Stat aggregator. Same modifier shape and math as the full version: three ops
 # (flat / percent_add / percent_mult), same formula. Drop in a StatSet (array
 # of StatDefinitionLite) and call add_modifier / get_stat.
 #
-# Cut from Pro:
+# Not in the Lite:
 #   * Skill tree runtime + UI (the headline feature)
 #   * Equipment auto-bridge (`equipment_paths` + bus subscription)
 #   * Timed buffs with auto-expiry

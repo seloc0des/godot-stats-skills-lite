@@ -2,7 +2,7 @@
 extends EditorPlugin
 
 # Ships the outcome chooser (pick → where → Apply) plus the compact no-code
-# authoring dock (the Pro tier adds full fields + wiring).
+# authoring dock (the full version adds full fields + wiring).
 
 const CHOOSER_SCRIPT := preload("res://addons/stats_skills_lite/editor/stats-skills_chooser_dock.gd")
 const DOCK_SCRIPT := preload("res://addons/stats_skills_lite/editor/lite_dock.gd")

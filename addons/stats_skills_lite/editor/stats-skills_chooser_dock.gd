@@ -8,7 +8,7 @@ extends Control
 #
 # LITE SCOPE: player stats (plus a plain stats list on C), enemy stats, and
 # pickups that boost a stat. No skill-tree runtime, no XP/level wiring, no
-# EventTrigger: those are Pro. Where Pro would auto-wire, we show one honest line.
+# EventTrigger: those are the full version. Where the full version would auto-wire, we show one honest line.
 
 const COMPONENT_SCRIPT := "res://addons/stats_skills_lite/stats_component_lite.gd"
 const DEF_SCRIPT := "res://addons/stats_skills_lite/stat_definition_lite.gd"
@@ -138,9 +138,9 @@ func _ready() -> void:
 	note.modulate = Color(0.72, 0.75, 0.82)
 	root.add_child(note)
 
-	# Honest Pro line: what the paid tier adds on top.
+	# Honest full-version line: what the paid tier adds on top.
 	var up := Label.new()
-	up.text = "🔒 Pro adds skill trees, XP and levels, enemies that grant XP when they die, a styled stats panel with breakdowns, equipment bonuses and saving."
+	up.text = "🔒 The full version adds skill trees, XP and levels, enemies that grant XP when they die, a styled stats panel with breakdowns, equipment bonuses and saving."
 	up.modulate = Color(0.85, 0.8, 0.55)
 	up.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	root.add_child(up)

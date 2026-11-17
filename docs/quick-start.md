@@ -94,7 +94,7 @@ Use a deliberate `source_id` so you can remove the modifier later. Suggested con
 
 - Equipment: `"item:<item_id>"`
 - Buffs: `"buff:<buff_id>"`
-- Skills: `"skill:<node_id>"` (in Pro)
+- Skills: `"skill:<node_id>"` (in the full version)
 - Story: `"story:<event_id>"`
 
 Stat pickups use ids that start with `pickup:`.
